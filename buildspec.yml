@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      touch test.text
 
   post_build:
     commands:
