@@ -16,4 +16,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-     - readme.md
+         - '**/*'
+  name: $AWS_REGION-$(date +%Y-%m-%d) 
